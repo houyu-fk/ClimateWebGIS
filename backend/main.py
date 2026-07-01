@@ -407,3 +407,4 @@ def update_profile(profile: UserProfileUpdate, user_id: str = Depends(get_curren
     cursor.close()
     conn.close()
     return {"message": "个人信息保存成功！"}
+
